@@ -13,11 +13,11 @@ public class EsempioManagedProperty implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	@ManagedProperty(value = "#{msgDUE}")
+	@ManagedProperty(value = "#{msgUNO}")
 	private MessageService msg;
 	
 	public EsempioManagedProperty(){
-		
+		System.out.println("Creata classe Esempio");
 	}
 
 	public MessageService getMsg() {

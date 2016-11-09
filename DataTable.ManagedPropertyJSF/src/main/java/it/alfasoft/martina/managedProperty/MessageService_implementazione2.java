@@ -12,7 +12,7 @@ public class MessageService_implementazione2 implements Serializable, MessageSer
 	private static final long serialVersionUID = 1L;
 	
     public MessageService_implementazione2(){
-		
+		System.out.println("Creata classe Implementazione2");
 	}
 
 	@Override

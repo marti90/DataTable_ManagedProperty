@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import javax.faces.bean.ManagedBean;
 
-@ManagedBean(name="msgService", eager=true)
+@ManagedBean(name="msgUNO", eager=true)
 public class MessageService_implementazione1 implements Serializable, MessageService{
 
 	/**
@@ -13,7 +13,7 @@ public class MessageService_implementazione1 implements Serializable, MessageSer
 	private static final long serialVersionUID = 1L;
 	
 	public MessageService_implementazione1(){
-		
+		System.out.println("Creata classe Implementazione1");
 	}
 
 	@Override
